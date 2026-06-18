@@ -6,7 +6,7 @@ metadata:
 data:
   MONGO: "true"
   REDIS_URL: "redis://redis:6379"
-  MONGO_URL: {{ .Values.configmap.MONGO_URL }}
+  MONGO_URL: {{ .Values.configmap.mongo_url }}
 ---
 apiVersion: apps/v1
 kind: Deployment
