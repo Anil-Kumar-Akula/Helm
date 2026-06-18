@@ -1,5 +1,5 @@
 deployment:
-  imageRepo: anilroyal8999/catalogue
+  imageRepo: anilroyal8999/mongodb
   imageVersion: v1
 service:
   servicePort: 8080 # default value
